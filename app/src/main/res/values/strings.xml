@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">BleApp</string>
+
+    <string name="location_share_title">BLE Location Share</string>
+    <string name="my_location_title">My location</string>
+    <string name="refresh_location">Refresh location</string>
+    <string name="location_unavailable">Location not available</string>
+    <string name="start_advertising">Advertise my location</string>
+    <string name="stop_advertising">Stop advertising</string>
+    <string name="nearby_devices_title">Nearby devices</string>
+    <string name="start_scan">Scan</string>
+    <string name="stop_scan">Stop scan</string>
+    <string name="scanning_hint">Scanning for BLE location broadcasts…</string>
+    <string name="no_devices_hint">Start scan to find phones advertising location nearby.</string>
+    <string name="bluetooth_on">Bluetooth: On</string>
+    <string name="bluetooth_off">Bluetooth: Off — turn it on in Settings</string>
+    <string name="location_on">Location/GPS: On</string>
+    <string name="location_off">Location/GPS: Off — turn ON in quick settings (required for BLE scan)</string>
+    <string name="ble_test_tip">Broadcast: Phone A = Advertise, Phone B = Scan (no connect).</string>
+    <string name="ble_modes_tip">GATT + Chat: Host = GATT server. Client = Scan → Open chat.</string>
+    <string name="gatt_example_title">GATT example (connect + read)</string>
+    <string name="gatt_example_subtitle">Server exposes location on characteristic FE02. Client connects and reads — like a phone call, then data.</string>
+    <string name="start_gatt_server">Start GATT server</string>
+    <string name="stop_gatt_server">Stop GATT server</string>
+    <string name="read_via_gatt">Read location via GATT</string>
+    <string name="broadcast_location_label">From broadcast (no connect):</string>
+    <string name="gatt_location_label">From GATT (after connect):</string>
+    <string name="permissions_granted">Permissions: Granted</string>
+    <string name="permissions_missing">Permissions: Required for BLE + GPS</string>
+    <string name="advertising_active">Broadcasting your location via BLE</string>
+    <string name="scanning_active">Scanning for nearby BLE devices</string>
+    <string name="coordinates_format">%.6f, %.6f</string>
+    <string name="accuracy_format">Accuracy: %.0f m</string>
+    <string name="device_address">%1$s</string>
+    <string name="signal_strength">Signal: %1$d dBm</string>
+    <string name="location_received_at">Location time: %1$s</string>
+    <string name="no_location_in_ad">No location data in advertisement</string>
+    <string name="chat_dialog_title">BLE Chat</string>
+    <string name="chat_waiting_peer">Waiting for other phone…</string>
+    <string name="chat_empty">No messages yet. Type below and tap Send.</string>
+    <string name="chat_input_hint">Type your message</string>
+    <string name="chat_input_waiting">Wait for Connected…</string>
+    <string name="chat_input_reconnecting">Reconnecting… you can type; tap Send when back online</string>
+    <string name="chat_send">Send</string>
+    <string name="chat_close">Close</string>
+    <string name="open_chat_server">Open chat (host)</string>
+    <string name="open_chat_client">Open chat with this device</string>
+    <string name="chat_back">Back</string>
+    <string name="peer_typing">typing…</string>
+    <string name="chat_online">Online</string>
+    <string name="chat_offline">Offline</string>
+    <string name="chat_attach_title">Share</string>
+    <string name="chat_attach_photo">Photo</string>
+    <string name="chat_attach_video">Video</string>
+    <string name="chat_attach_location">Location</string>
+    <string name="chat_attach_link">Link</string>
+    <string name="chat_link_hint">https://example.com</string>
+    <string name="chat_cancel">Cancel</string>
+    <string name="chat_video_local_only">Video saved on this phone (BLE sends caption only)</string>
+</resources>
